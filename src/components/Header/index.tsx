@@ -34,9 +34,10 @@ const Header = () => {
   }, [lastScrollY]);
 
   const serviceSubMenu = [
-    { title: "सेवा 1", path: "/services/1" },
-    { title: "सेवा 2", path: "/services/2" },
-    { title: "सेवा 3", path: "/services/3" },
+    { title: "शत्रु बाधा निवारण पूजा", path: "/services/1" },
+    { title: "अनुष्ठान पूजा", path: "/services/2" },
+    { title: "सम्मोहन तंत्र पूजा", path: "/services/3" },
+    { title: "सेवाएं", path: "/services" }
   ];
 
   return (
