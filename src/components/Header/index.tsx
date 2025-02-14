@@ -37,7 +37,7 @@ const Header = () => {
     { title: "शत्रु बाधा निवारण पूजा", path: "/services/1" },
     { title: "अनुष्ठान पूजा", path: "/services/2" },
     { title: "सम्मोहन तंत्र पूजा", path: "/services/3" },
-    { title: "सेवाएं", path: "/services" }
+    { title: "अन्य सेवाएं", path: "/services" }
   ];
 
   return (
