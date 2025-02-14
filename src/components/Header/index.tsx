@@ -61,7 +61,7 @@ const Header = () => {
           <Link href="/" className="flex items-center space-x-2">
             <Image src="/images/logo/LOGO-2.png" alt="Logo" width={50} height={20} className="cursor-pointer" />
             <span className="text-white text-lg font-bold tracking-wide" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            नंद किशोर जोशी
+            नंदकिशोर जोशी
             </span>
           </Link>
 
