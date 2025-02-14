@@ -8,8 +8,8 @@ import Services from "@/components/Services";
 import BaglamukhiSection from "@/components/ExtraPage";
 import CallNow from "@/components/Marquee";
 export const metadata: Metadata = {
-  title: "DesignsVerse",
-  description: "DesignsVerse is an India's leading digital solutions agency offering custom website development, ERP software, digital marketing, UI/UX design, mobile app development, and branding services to enhance your online presence and drive business growth.",  
+  title: "माँ बगलामुखी मंदिर | Pandit Nandkishor - Maa Baglamukhi Mandir",
+  description: "माँ बगलामुखी मंदिर - संपूर्ण पूजा विधि, मंत्र जाप, तांत्रिक अनुष्ठान, एवं पंडित नंदकिशोर जी से संपर्क करें। Maa Baglamukhi Mandir for Puja Vidhi, Mantra Jaap & Anushthan by Pandit Nandkishor.",
 };
 
 export default function Home() {
