@@ -28,9 +28,12 @@ const ProfileSection = () => {
 
 यदि आप माँ बगलामुखी की दिव्य कृपा और शक्ति का अनुभव करना चाहते हैं, तो पंडित नंदकिशोर जोशी जी से संपर्क करें और अपने लिए शुभ अनुष्ठान व पूजा का आयोजन करवाएँ
             </p>
-            <button className="px-8 py-3 bg-[#D55F26] text-white rounded-lg font-semibold shadow-md hover:scale-105 hover:bg-gray-900 transition duration-300">
-              📞 संपर्क करें
-            </button>
+            <Link
+              href="tel:+919752165718"
+              className="px-8 py-3 border-2 border-black text-black rounded-full text-lg font-semibold hover:bg-black hover:text-white transition duration-300"
+            >
+              📞 अभी संपर्क करें
+            </Link>
           </div>
         </div>
       </div>
