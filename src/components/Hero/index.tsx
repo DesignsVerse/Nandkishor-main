@@ -36,7 +36,7 @@ const Hero = () => {
               सुरक्षा और सफलता के लिए अपनी पूजा आज ही बुक करें।
             </p>
             <Link
-              href="tel:+919413466075"
+              href="tel:+919752165718"
               className="px-8 py-3 border-2 border-black text-black rounded-full text-lg font-semibold hover:bg-black hover:text-white transition duration-300"
             >
               📞 अभी संपर्क करें
