@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const ProfileSection = () => {
   return (
     <div className="w-full bg-gradient-to-br from-gray-100 to-gray-50 shadow-lg rounded-xl">
