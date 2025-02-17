@@ -22,8 +22,8 @@ export default function Footer() {
               <p className="font-bold mb-2">Stay In Touch With Us:</p>
               <div className="flex space-x-4">
                 <Link href="https://www.youtube.com/channel/UCT0vAYxfSzG3Gi92_mWkaKg" className="text-white">   <Image
-              src="/images/logo/YT.svg" 
-              alt="Panditjee Online logo" 
+              src="/images/logo/youtube (1).png"                                                                       
+              alt="BAglamukhi Nandkishor Youtube" 
             /></Link>
                 <Link href="#" className="text-white">📸</Link>
                 <Link href="#" className="text-white">📌</Link>
