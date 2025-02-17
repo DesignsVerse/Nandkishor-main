@@ -28,8 +28,20 @@ export default function Footer() {
               height={25} 
               className="mb-4"
             /></Link>
-                <Link href="#" className="text-white">📸</Link>
-                <Link href="#" className="text-white">📌</Link>
+                <Link href="https://www.instagram.com/baglamukhi_p.nandkishor_joshi/" className="text-white">  <Image
+              src="/images/logo/instagram.png"                                                                       
+              alt="BAglamukhi Nandkishor Youtube"
+              width={25} 
+              height={25} 
+              className="mb-4"
+            /></Link>
+                <Link href="#" className="text-white">  <Image
+              src="/images/logo/youtube (1).png"                                                                       
+              alt="BAglamukhi Nandkishor Youtube"
+              width={25} 
+              height={25} 
+              className="mb-4"
+            /></Link>
               </div>
             </div>
           </div>
