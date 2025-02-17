@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
         
         <div className="text-center mt-10">
-          <p>COPYRIGHT © 2025 <Link href="#">DesignsVerse</Link>. ALL RIGHTS RESERVED.</p>
+          <p>COPYRIGHT © 2025 <Link href="#"></Link>. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>
