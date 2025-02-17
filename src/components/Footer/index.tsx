@@ -22,7 +22,7 @@ export default function Footer() {
               <p className="font-bold mb-2">Stay In Touch With Us:</p>
               <div className="flex space-x-4">
                 <Link href="#" className="text-white">   <Image
-              src="/YT.svg" 
+              src="/logo/YT.svg" 
               alt="Panditjee Online logo" 
             /></Link>
                 <Link href="#" className="text-white">📸</Link>
