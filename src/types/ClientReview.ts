@@ -1,4 +1,4 @@
-export type Testimonial = {
+export type ClientReview = {
   id: number;
   name: string;
   designation: string;

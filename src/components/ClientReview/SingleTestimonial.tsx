@@ -1,4 +1,4 @@
-import { Testimonial } from "@/types/testimonial";
+import { ClientReview } from "@/types/ClientReview";
 import Image from "next/image";
 const starIcon = (
   <svg width="18" height="16" viewBox="0 0 18 16" className="fill-current">
@@ -6,8 +6,8 @@ const starIcon = (
   </svg>
 );
 
-const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
-  const { star, name, image, content, designation } = testimonial;
+const SingleClientReview = ({ ClientReview }: { ClientReview: ClientReview }) => {
+  const { star, name, image, content, designation } = ClientReview;
 
   let ratingIcons = [];
   for (let index = 0; index < star; index++) {
@@ -41,4 +41,4 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   );
 };
 
-export default SingleTestimonial;
+export default SingleClientReview;

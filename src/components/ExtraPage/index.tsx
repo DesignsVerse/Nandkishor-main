@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { FaCheck, FaArrowRight } from "react-icons/fa";
 
-const BaglamukhiSection = () => {
+const ExtraPage = () => {
   return (
     <section className="bg-gradient-to-b from-yellow-50 to-yellow-100 text-black py-16">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
@@ -54,4 +54,4 @@ const BaglamukhiSection = () => {
   );
 };
 
-export default BaglamukhiSection;
+export default ExtraPage;

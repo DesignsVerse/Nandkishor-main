@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { id,image ,title, paragraph, author, publishDate } = blog;
+  const { id,image ,title, paragraph} = blog;
 
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
@@ -19,7 +19,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         />
       </Link>
       <div className="p-4 text-left">
-        <p className="text-sm text-gray-500">{author.name} - {publishDate}</p>
+        <p className="text-sm text-gray-500">{} - {}</p>
         <h2 className="text-xl font-bold text-gray-900 mt-2">
           <Link href={`/blog/${id}`} className="hover:text-[#D55F26]">
             {title}

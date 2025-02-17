@@ -4,7 +4,7 @@ import Brands from "@/components/Marquee";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+import ClientReviews from "@/components/ClientReview";
 import { Metadata } from "next";
 import Service from "../../app/services/[id]/page";
 import AboutPandit from "@/components/AboutPandit";
@@ -30,7 +30,7 @@ export default function Home() {
       <Services/>
       <CallNow />
       <Addmore />
-      <Testimonials />
+      <ClientReviews />
       <Blog />
       {/* <Contact /> */}
       

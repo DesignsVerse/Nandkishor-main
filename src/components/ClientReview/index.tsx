@@ -4,31 +4,31 @@ import SectionTitle from "../Common/SectionTitle";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
-const testimonialData = [
+const ClientReviewData = [
   {
     id: 1,
     name: " राज पटेल",
     content:
       "मैंने माँ बगलामुखी मंदिर में शत्रु बाधा निवारण पूजा करवाई और कुछ ही समय में सकारात्मक बदलाव देखने को मिले। जीवन की परेशानियाँ कम हुईं और मानसिक शांति प्राप्त हुई। नंदकिशोर जोशी जी का मार्गदर्शन बहुत उपयोगी रहा। उनकी पूजा विधि से न केवल मेरी शत्रु बाधाएँ समाप्त हुईं, बल्कि मेरे जीवन में शांति और सफलता का आभास हुआ।",
-    image: "/images/testimonials/testmonial-1.jpg",
+    image: "/images/ClientReview/testmonial-1.jpg",
   },
   {
     id: 2,
     name: "आनंद किशोर",
     content:
       "व्यापार में लगातार नुकसान हो रहा था, लेकिन माँ बगलामुखी की विशेष पूजा के बाद आर्थिक स्थिति में सुधार हुआ। अब व्यवसाय बढ़ रहा है और सभी अड़चनें दूर हो गई हैं। पंडित नंदकिशोर जोशी जी का आभार, जिनके मार्गदर्शन और पूजा विधि से मेरी वित्तीय स्थिति सुधरी और जीवन में समृद्धि आई।",
-    image: "/images/testimonials/testmonial-2.jpg",
+    image: "/images/ClientReview/testmonial-2.jpg",
   },
   {
     id: 3,
     name: "राजेश शर्मा",
     content:
       "कोर्ट केस में सालों से फंसा था, लेकिन माँ बगलामुखी की पूजा के बाद फैसला मेरे पक्ष में आया। यह सच में एक चमत्कार से कम नहीं था। अब मैं पहले से ज्यादा आत्मविश्वास से भर गया हूँ। नंदकिशोर जोशी जी के मार्गदर्शन में की गई पूजा ने मेरी न्यायिक समस्याओं को सुलझाया और मुझे मानसिक शांति प्रदान की।",
-    image: "/images/testimonials/testmonial-3.jpg",
+    image: "/images/ClientReview/testmonial-3.jpg",
   },
 ];
 
-const Testimonials = () => {
+const ClientReview = () => {
   const router = useRouter();
 
   return (
@@ -40,17 +40,17 @@ const Testimonials = () => {
       />
 
       <div className="mt-6 flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
-        {testimonialData.map((testimonial) => (
+        {ClientReviewData.map((ClientReview) => (
           <motion.div 
-            key={testimonial.id} 
+            key={ClientReview.id} 
             className="max-w-md text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             whileHover={{ scale: 1.05 }}
           >
             <div className="relative mx-auto w-[180px] h-[180px] rounded-full overflow-hidden border-4 border-yellow-500">
-              <Image src={testimonial.image} alt={`Portrait of ${testimonial.name}`} width={180} height={180} priority />
+              <Image src={ClientReview.image} alt={`Portrait of ${ClientReview.name}`} width={180} height={180} priority />
             </div>
-            <p className="mt-4 text-lg text-gray-600 italic">{testimonial.content}</p>
-            <p className="mt-4 text-xl font-bold text-gray-800">{testimonial.name}</p>
+            <p className="mt-4 text-lg text-gray-600 italic">{ClientReview.content}</p>
+            <p className="mt-4 text-xl font-bold text-gray-800">{ClientReview.name}</p>
           </motion.div>
         ))}
       </div>
@@ -86,4 +86,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default ClientReview;
