@@ -24,8 +24,8 @@ export default function Footer() {
                 <Link href="https://www.youtube.com/channel/UCT0vAYxfSzG3Gi92_mWkaKg" className="text-white">   <Image
               src="/images/logo/youtube (1).png"                                                                       
               alt="BAglamukhi Nandkishor Youtube"
-              width={50} 
-              height={50} 
+              width={25} 
+              height={25} 
               className="mb-4"
             /></Link>
                 <Link href="#" className="text-white">📸</Link>
