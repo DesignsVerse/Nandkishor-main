@@ -18,14 +18,14 @@ export default function Footer() {
             <p className="italic mb-4">&quot;✔ शुद्ध वैदिक विधियों से अपनी पूजा संपन्न कराएं 🕉️
 💬 आज ही हमारे अनुभवी पंडित जी से परामर्श करें!</p>
             
-            {/* <div className="mt-4">
+            <div className="mt-4">
               <p className="font-bold mb-2">Stay In Touch With Us:</p>
               <div className="flex space-x-4">
                 <Link href="#" className="text-white">📘</Link>
                 <Link href="#" className="text-white">📸</Link>
                 <Link href="#" className="text-white">📌</Link>
               </div>
-            </div> */}
+            </div>
           </div>
           
           {/* Quick Links */}
