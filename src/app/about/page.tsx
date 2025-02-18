@@ -3,9 +3,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | DesignsVerse",
-  description:
-    "Learn more about DesignsVerse, a leading agency specializing in website development, digital marketing, and personal branding. We create SEO-friendly, high-performance websites and result-driven strategies to help businesses and professionals succeed in the digital world.",
+  title: "About | माँ बगलामुखी मंदिर | Pandit Nandkishor - Maa Baglamukhi Mandir",
+  description: "माँ बगलामुखी मंदिर - संपूर्ण पूजा विधि, मंत्र जाप, तांत्रिक अनुष्ठान, एवं पंडित नंदकिशोर जी से संपर्क करें। Maa Baglamukhi Mandir for Puja Vidhi, Mantra Jaap & Anushthan by Pandit Nandkishor.",
 };
 
 const Galary = () => {
