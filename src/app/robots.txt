@@ -6,4 +6,5 @@ Disallow: /admin/    # Block admin panel (if exists)
 Allow: /
 
 # Specify the sitemap location
-Sitemap: https://designsverse.vercel.app/sitemap.xml
+Sitemap: https://www.baglamukhinandkishor.com/sitemap.xml
+
