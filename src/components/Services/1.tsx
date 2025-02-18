@@ -15,7 +15,7 @@ const Service = () => {
               key={service.id}
               className="rounded-2xl text-center transform transition-transform hover:scale-105 bg-gradient-to-r from-[#FFF7F0] to-[#FFEAD8] hover:from-[#FFDEC0] hover:to-[#FFCFA5] p-6 shadow-md hover:shadow-lg"
             >
-              <Link href={`/service/${service.id}`}>
+              <Link href={`/services/${service.id}`}>
                 <SingleService services={service} />
               </Link>
             </div>
