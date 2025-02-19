@@ -5,8 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { id,image ,title, paragraph} = blog;
-
+  const { id, title, video, thumbnail, author, tags, publishDate, category, readTime, sections } = blog;
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       <Link href={`/blog/${id}`} className="block">
