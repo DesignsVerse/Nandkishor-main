@@ -77,3 +77,4 @@ const blogData: Blog[] = [
     ]
   }
 ]
+export default blogData;
