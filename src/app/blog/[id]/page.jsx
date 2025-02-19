@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import data from "@/data/posts.json";
+import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 
 // Fetch metadata for SEO
 export async function generateMetadata({ params }) {
@@ -8,7 +10,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: post.title,
-    description: post.excerpt,
+    description: post.sections[0]?.content || "Read more about this topic.",
   };
 }
 
@@ -27,15 +29,55 @@ export default function BlogPost({ params }) {
   }
 
   return (
-    <main className="mt-10 w-full min-h-screen flex flex-col items-center justify-center pt-24 px-6 text-center bg-white dark:bg-[#121723] text-black dark:text-white transition-colors duration-300">
-      {/* Blog Content Section */}
-      <div className="max-w-2xl">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-          {post.title}
-        </h1>
-        <p className="text-base sm:text-lg leading-relaxed">
-          {post.content}
+    <main className="mt-20 w-full min-h-screen flex flex-col items-center pt-24 px-6 md:px-10 lg:px-20 bg-white dark:bg-[#121723] text-black dark:text-white transition-colors duration-300">
+      {/* Blog Header Section */}
+      <div className="w-full mb-10 flex flex-col items-center text-center">
+        <h1 className="text-3xl md:text-4xl font-bold">{post.title}</h1>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+          Published on {post.publishDate} • {post.readTime} min read
         </p>
+      </div>
+
+      {/* Blog Thumbnail */}
+      {post.thumbnail && (
+        <div className="w-full flex justify-center">
+          <Image
+            src={post.thumbnail}
+            width={800}
+            height={450}
+            alt={post.title}
+            className="rounded-lg object-cover"
+          />
+        </div>
+      )}
+
+      {/* Blog Content Sections */}
+      <div className="w-full max-w-3xl mt-10">
+        {post.sections.map((section, index) => (
+          <div key={index} className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4">{section.heading}</h2>
+            <ReactMarkdown className="text-lg text-justify leading-relaxed">
+              {section.content}
+            </ReactMarkdown>
+          </div>
+        ))}
+      </div>
+
+      {/* Author Section */}
+      <div className="w-full max-w-3xl flex items-center mt-10 p-6 border-t border-gray-300 dark:border-gray-700">
+        <div className="flex items-center">
+          <Image
+            src={post.author.image}
+            width={50}
+            height={50}
+            alt={post.author.name}
+            className="rounded-full"
+          />
+          <div className="ml-4">
+            <p className="text-lg font-semibold">{post.author.name}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400">{post.author.designation}</p>
+          </div>
+        </div>
       </div>
     </main>
   );
