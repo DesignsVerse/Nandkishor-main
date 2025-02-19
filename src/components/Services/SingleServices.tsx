@@ -35,18 +35,21 @@ const SingleServices = ({ services }: { services: Services }) => {
 
         {/* Buttons - View More & Book Now */}
         <div className="flex justify-between items-center mt-4">
+          <div>
           <Link href={`/services/${id}`} className="text-[#d55f26] font-semibold hover:underline">
           और देखें
           </Link>
+          </div>
+          <div>
           <a
-            href="https://api.whatsapp.com/send/?phone=919752165718&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C+%E0%A4%A8%E0%A4%82%E0%A4%A6%E0%A4%95%E0%A4%BF%E0%A4%B6%E0%A5%8B%E0%A4%B0+%E0%A4%9C%E0%A5%80%2C+%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87+%E0%A4%AE%E0%A4%BE%E0%A4%81+%E0%A4%AC%E0%A4%97%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%80+%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE+%E0%A4%95%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B9%E0%A5%88%E0%A5%A4&
-" // Yaha apna WhatsApp number dal dena
+            href="https://api.whatsapp.com/send/?phone=919752165718&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C+%E0%A4%A8%E0%A4%82%E0%A4%A6%E0%A4%95%E0%A4%BF%E0%A4%B6%E0%A5%8B%E0%A4%B0+%E0%A4%9C%E0%A5%80%2C+%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87+%E0%A4%AE%E0%A4%BE%E0%A4%81+%E0%A4%AC%E0%A4%97%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%80+%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE+%E0%A4%95%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B9%E0%A5%88%E0%A5%A4&z" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#d55f26] text-white px-4 py-2 rounded-lg shadow-md font-semibold flex items-center gap-2 hover:scale-105 hover:shadow-lg transition duration-300"
           >
             {/* 📲  */}अभी बुक करें
           </a>
+          </div>
         </div>
       </div>
     </div>
