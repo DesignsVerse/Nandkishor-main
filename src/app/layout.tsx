@@ -1,5 +1,6 @@
 "use client";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/Header";
 // import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
@@ -19,6 +20,7 @@ export default function RootLayout({
         <>
           <Header />
           {children}
+          <Analytics/>
           <Footer />
           {/* <ScrollToTop /> */}
         </>
