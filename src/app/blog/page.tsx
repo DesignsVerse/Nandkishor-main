@@ -4,9 +4,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "समाचार",
-  description:
-    "Explore our latest blogs and articles on website development, digital marketing, and personal branding. Stay updated with our insightful content and industry trends."
+  title: "Blog | माँ बगलामुखी मंदिर | Pandit Nandkishor - Maa Baglamukhi Mandir",
+  description: "माँ बगलामुखी मंदिर - संपूर्ण पूजा विधि, मंत्र जाप, तांत्रिक अनुष्ठान, एवं पंडित नंदकिशोर जी से संपर्क करें। Maa Baglamukhi Mandir for Puja Vidhi, Mantra Jaap & Anushthan by Pandit Nandkishor.",
 };
 
 const BlogPage = () => {
