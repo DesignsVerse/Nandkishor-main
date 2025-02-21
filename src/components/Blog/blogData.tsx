@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     "id": "1",
     "title": "मां बगलामुखी मंदिर, नलखेड़ा: चमत्कारी शक्ति और आस्था का केंद्र",
     "video": "/videos/blog/blog-1.mp4",
-    "thumbnail": "/images/blog/blog-1.jpg",
+    "thumbnail": "/images/blog/Maabaglamukhi.png",
     "author": {
       "name": "Baglamukhi Nandkishor",
       "image": "/images/baglamukhi-nandkishor.jpg",
@@ -55,7 +55,157 @@ const blogData: Blog[] = [
     "id": "3",
     "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
     "video": "/videos/blog/blog-3.mp4",
-    "thumbnail": "/images/blog/blog-3.jpg",
+    "thumbnail": "/images/blog/Maabaglamukhi1.jpeg",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi2.jpeg",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi2.jpeg",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi1.jpeg",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi.png",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi3.jpeg",
+    "author": {
+      "name": "Baglamukhi Nandkishor",
+      "image": "/images/baglamukhi-nandkishor.jpg",
+      "designation": "Spiritual Guide"
+    },
+    "tags": ["Baglamukhi Temple", "Kangra Temple", "Spiritual Practices"],
+    "publishDate": "Feb 19, 2025",
+    "category": "Religious Tourism",
+    "readTime": 6,
+    "sections": [
+      {
+        "heading": "मंदिर की विशेषता",
+        "content": "कांगड़ा जिले के इस मंदिर में शत्रुनाशिनी यज्ञ किए जाते हैं।"
+      },
+      {
+        "heading": "ग्रहों की शांति के लिए उपाय",
+        "content": "इस मंदिर में घरेलू कलह, अदालती परेशानियों और अन्य समस्याओं से मुक्ति के लिए विशेष पूजा कराई जाती है।"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "हिमाचल के इस मंदिर में होते हैं विशेष अनुष्ठान...",
+    "video": "/videos/blog/blog-3.mp4",
+    "thumbnail": "/images/blog/Maabaglamukhi2.jpeg",
     "author": {
       "name": "Baglamukhi Nandkishor",
       "image": "/images/baglamukhi-nandkishor.jpg",

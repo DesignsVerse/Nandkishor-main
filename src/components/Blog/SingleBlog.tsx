@@ -10,9 +10,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
     <div className="group relative mb-12 overflow-hidden rounded-lg bg-white shadow-lg transition duration-300 hover:shadow-xl dark:bg-dark dark:hover:shadow-gray-dark">
       {/* Blog Thumbnail or Video */}
       <Link href={`/blog/${id}`} className="relative block aspect-[16/9] w-full overflow-hidden">
-        {video ? (
-          <video src={video} autoPlay loop muted className="w-full h-full object-cover" />
-        ) : (
+        {(
           <Image src={thumbnail} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
         )}
         <span className="absolute top-4 right-4 z-10 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white">
