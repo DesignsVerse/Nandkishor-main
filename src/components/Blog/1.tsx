@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import blogData from "@/components/Blog/blogData";
 import SingleBlog from "@/components/Blog/SingleBlog";
 import Link from "next/link";
+import { formatTitleForURL } from "utils/slugify"; // Import slugify function
 
 const Blog = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -36,9 +37,10 @@ const Blog = () => {
             {currentBlogs.map((blog) => (
               <div
                 key={blog.id}
-                className="w-full p-4 rounded-2xl text-center transform transition-transform hover:scale-105 bg-gray-light "
+                className="w-full p-4 rounded-2xl text-center transform transition-transform hover:scale-105 bg-gray-light"
               >
-                <Link href={`/blog/${blog.id}`}>
+                {/* Updated link to use title-based dynamic routing */}
+                <Link href={`/blog/${formatTitleForURL(blog.title)}`}>
                   <SingleBlog blog={blog} />
                 </Link>
               </div>
