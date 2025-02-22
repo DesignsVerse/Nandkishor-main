@@ -252,7 +252,7 @@ const blogData: Blog[] = [
     "id": "6",
     "title": "माँ बगलामुखी और विद्वेषण पूजा: पंडित नंदकिशोर से दिव्य अनुष्ठान का प्रभाव",
     "video": "",
-    "thumbnail": "/images/blog/Maabaglamukhi4.jpeg",
+    "thumbnail": "/images/blog/Maabaglamukhi4.jpg",
     "author": {
       "name": "Spiritual Research Team",
       "image": "/images/authors/spiritual-team.jpeg",
@@ -295,7 +295,7 @@ const blogData: Blog[] = [
     "id": "7",
     "title": "माँ बगलामुखी और विद्वेषण पूजा: नलखेड़ा के अनुभवी तांत्रिक द्वारा दिव्य अनुष्ठान",
     "video": "",
-    "thumbnail": "/images/blog/Maabaglamukhi3.jpeg",
+    "thumbnail": "/images/blog/Maabaglamukhi3.jpg",
     "author": {
       "name": "Spiritual Research Team",
       "image": "/images/authors/spiritual-team.jpeg",
@@ -343,7 +343,7 @@ const blogData: Blog[] = [
     "id": "8",
     "title": "माँ बगलामुखी और विद्वेषण पूजा: श्री नंदकिशोर जोशी नलखेड़ा द्वारा दिव्य अनुष्ठान",
     "video": "",
-    "thumbnail": "/images/blog/Maabaglamukhi4.jpeg", 
+    "thumbnail": "/images/blog/Maabaglamukhi4.jpg", 
     "author": {
       "name": "Spiritual Research Team",
       "image": "/images/authors/spiritual-team.jpeg",
