@@ -75,10 +75,15 @@ export default async function ServicePost({ params }) {
             </p>
 
             <div className="mt-4">
-              <p className="text-sm text-white">कॉल करें: <span className="text-black">+(91) 9810487266</span></p>
-              <p className="text-sm text-white">मेल करें: <span className="text-black">baglamukhisadhnapeeth@gmail.com</span></p>
+              <p className="text-sm text-white">कॉल करें: <span className="text-black">+(91) 9752165718</span></p>
+              
+              {/* Call Button */}
+              <a href="tel:+919752165718" className="mt-3 inline-block bg-[#121725] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-800 transition">
+                📞 अभी कॉल करें
+              </a>
             </div>
           </div>
+
 
         </aside>
       </div>

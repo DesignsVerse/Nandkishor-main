@@ -17,7 +17,7 @@ const SingleServices = ({ services }: { services: Services }) => {
             width={500}
             height={300}
             priority
-            className="rounded-md object-cover"
+            className="rounded-md object-center"
           />
         </div>
       </Link>
