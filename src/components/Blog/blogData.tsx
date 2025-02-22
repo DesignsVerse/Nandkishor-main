@@ -295,7 +295,7 @@ const blogData: Blog[] = [
     "id": "7",
     "title": "माँ बगलामुखी और विद्वेषण पूजा: नलखेड़ा के अनुभवी तांत्रिक द्वारा दिव्य अनुष्ठान",
     "video": "",
-    "thumbnail": "/images/blog/Maabaglamukhi4.jpg",
+    "thumbnail": "/images/blog/Maabaglamukhi3.jpeg",
     "author": {
       "name": "Spiritual Research Team",
       "image": "/images/authors/spiritual-team.jpeg",
@@ -391,7 +391,7 @@ const blogData: Blog[] = [
     "id": "9",
     "title": "माँ बगलामुखी और विद्वेषण पूजा: नलखेड़ा पंडित नंदकिशोर से दिव्य अनुष्ठान का प्रभाव",
     "video": "",
-    "thumbnail": "/images/blog/Maabaglamukhi5.jpg",
+    "thumbnail": "/images/blog/Maabaglamukhi2.jpeg",
     "author": {
       "name": "Spiritual Research Team",
       "image": "/images/authors/spiritual-team.jpeg",
